@@ -1,0 +1,8 @@
+{
+"type": "material",
+"name": "Алмаз",
+"description": "Най міцніший метеріал в всесвіті.",
+"color": "7D1818",
+"cost": 2f,
+"alwaysUnlocked": true
+}

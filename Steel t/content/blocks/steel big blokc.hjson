@@ -1,0 +1,11 @@
+{
+"type": "wall",
+"name":"Велика сталева стіна",
+"health":3020,
+"size":2,
+"requirements":[
+{ "item": "steel", "amount": 80}
+],
+"research": "steel blokc",
+"category": "defense",
+}

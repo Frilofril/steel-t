@@ -1,0 +1,22 @@
+{
+"type": "GenericCrafter",
+"name":"Повітря очисник",
+"description":"Збирає весь бруд з атмосфери планети, а навзаїм ви отримуєте сіру.",
+"health":310,
+"size":1,
+"requirements":[
+{ "item": "silicon", "amount": 60},
+],
+"research": "silicon",
+"hasPower": true,
+"hasitem": true,
+"craftTime": 70,
+"consumes": {
+"power": 15,
+},
+"updateEffect": "shootBigSmoke",
+"category": "crafting",
+"idleSoundVolume": 0.5,
+"itemCapacity": 64,
+"outputItem":{ "item": "sulfur", "amount": 1}
+}

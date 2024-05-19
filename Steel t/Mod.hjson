@@ -1,0 +1,22 @@
+name: "steel-t"
+displayName: "The more - the Better"
+author: frilofril
+description: "Мод додає багато нових ресурсів, але основний з них це сталь.
+Додає Сталь , та її очищену версію;
+Додає Фабрики;
+Додає Турелі;
+Додає Юнітів;
+Додає Стіни;
+Та багато чого іншого...
+------------------------
+(The mod itself only has Ukraine language)
+The mod adds many new resources, but the main one is steel.
+will add Steel (and a refined version)
+adds new turrets
+adds new unit
+adds new walls
+and much more..."
+version: "0.3"
+minGameVersion: "146"
+dependencies: []
+hidden: false

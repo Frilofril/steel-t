@@ -1,0 +1,30 @@
+{
+"type": "GenericCrafter",
+"name":"Сталева плавильня",
+"description":"Піч те сплавляють у сталь.",
+"health":90,
+"size":2,
+"requirements":[
+{ "item": "beryllium", "amount": 40},
+{ "item": "graphite", "amount": 20}
+],
+"research": "sulfur-ore",
+"hasPower": true,
+"hasitem": true,
+"hasliquids": false,
+"craftTime": 20,
+"consumes": {
+"power": 5,
+"items": {
+"items": [
+{"item": "beryllium", "amount": 3},
+{"item": "sulfur", "amount": 3}
+]
+}
+},
+"updateEffect": "freezing",
+"category": "crafting",
+"idleSoundVolume": 0.5,
+"itemCapacity": 32,
+"outputItem": {"item": "steel", "amount": 7},
+}

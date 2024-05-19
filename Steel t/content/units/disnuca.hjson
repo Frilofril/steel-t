@@ -1,0 +1,50 @@
+{
+"name":"Дісниця"
+"health": 400,
+"speed": 1.5,
+"mineSpeed": 3,
+"flying": true,
+"armor": 3,
+"range": 180,
+"engineSize": 3,
+"engineOffset": 12.5,
+"engineColor": "F3E979FF",
+"faceTarget": true,
+
+"weapons": [{
+"name":"arrowsll",
+"shootCone":360,
+"mirror":false,
+top":false,
+"rotate":false,
+"shoot":{
+"shots" :2,
+"shotDelay" :3,
+},
+"x":0,
+"y":0
+"reload":25,
+shootSound":"mineDeploy",
+"recoil":0,
+"minShootVelocity":0.25,
+    "bullet":{
+    "type":"BasicBulletType",
+damage: 15
+lifetime: 90
+speed: 2
+recoil: 1
+knockback: 1
+range: 15
+frontColor: 7D1818
+}
+}]
+"abilities": [
+        {
+            "type": "mindustry.entities.abilities.ForceFieldAbility",
+            "radius": 10
+            "regen": 2,
+            "max": 80,
+            "cooldown": 190
+            }
+        ]
+}

@@ -1,0 +1,12 @@
+{
+"type": "wall",
+"name":"Сталева стіна",
+"health":1130,
+"size":1,
+"requirements":[
+{ "item": "steel", "amount": 20}
+],
+"research": "metallic-sauna",
+"research": "steel smelting furnace",
+"category": "defense",
+}

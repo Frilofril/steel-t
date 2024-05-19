@@ -1,0 +1,10 @@
+{
+"type": "material",
+"name": "Сіра",
+"description": "Вогненебезпечний мінерал який розганяє вогонь.",
+"color": "E1E11E",
+"flammability": 90,
+"hardness": 1,
+"cost": 2f,
+"alwaysUnlocked": true
+}

@@ -1,0 +1,20 @@
+{
+"type": "itemTurret",
+"name": "Паламар",
+"description": "Турель зі сталі, з великою дальністю.",
+"health": 700,
+"size": 2,
+"reloadTime": 20,
+recoilAmount: 1
+"range": 220,
+"shots":1,
+rotateSpeed: 100
+"ammoTypes":{"steel":{"damage": 4, "lifeTime":900, speed: 15
+},"Diamont":{"damage": 20, "lifeTime":900, speed: 11
+} },
+"requirements":[{ "item": "steel", "amount": 80}],
+"category": "turret",
+coolantMultiplier: 0.7
+"research": "metallic-sauna",
+"research": "steel smelting furnace",
+}

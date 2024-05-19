@@ -1,0 +1,29 @@
+{
+"type": "GenericCrafter",
+"name":"Подвійний прес",
+"description":"Прес який спочатку робить з графіту вугіля, а потім з вугфлля алмази.",
+"health":400,
+"size":3,
+"requirements":[
+{ "item": "graphite", "amount": 190},
+{ "item": "silicon", "amount": 80}
+],
+"research": "sulfur-ore",
+"hasPower": true,
+"hasitem": true,
+"hasliquids": false,
+"craftTime": 35,
+"consumes": {
+"power": 5,
+"items": {
+"items": [
+{"item": "graphite", "amount": 30}
+]
+}
+},
+"updateEffect": "rocketSmokeLarge",
+"category": "crafting",
+"idleSoundVolume": 0.5,
+"itemCapacity": 32,
+"outputItem": {"item": "Diamont", "amount": 1},
+}

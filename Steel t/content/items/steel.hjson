@@ -1,0 +1,8 @@
+{
+"type": "material",
+"name": "Сталь",
+"description": "Чим більше тим краще.",
+"color": "7D1818",
+"cost": 2f,
+"alwaysUnlocked": true
+}

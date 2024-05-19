@@ -1,0 +1,30 @@
+{
+"type": "GenericCrafter",
+"name":"Металева баня",
+"description":"Велика баня яка робить сталь.",
+"health":90,
+"size":2,
+"requirements":[
+{ "item": "scrap", "amount": 40},
+{ "item": "lead", "amount": 20}
+],
+"research": "sulfur-ore",
+"hasPower": true,
+"hasitem": true,
+"hasliquids": false,
+"craftTime": 20,
+"consumes": {
+"power": 2,
+"items": {
+"items": [
+{"item": "scrap", "amount": 3},
+{"item": "sulfur", "amount": 3}
+]
+}
+},
+"updateEffect": "freezing",
+"category": "crafting",
+"idleSoundVolume": 0.5,
+"itemCapacity": 32,
+"outputItem": {"item": "steel", "amount": 7},
+}

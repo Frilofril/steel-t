@@ -1,0 +1,20 @@
+{
+"name":"Сталева Тех-Фабрика",
+"description":"Фабрика-лабораторія яка робить юнітів з сталі.",
+"type": "UnitFactory",
+"size": 3,
+"category": "units",
+"research": "steel gun"
+"consumes": {
+"power": 5
+},
+"plans": [
+{
+"unit":"disnuca",
+"requirements": [
+{
+"item": "steel",
+"amount": 130
+},
+],
+"time": 400    }]}
